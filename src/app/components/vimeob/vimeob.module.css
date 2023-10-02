@@ -1,0 +1,62 @@
+.vimeob {
+  padding: 20px 30px 20px 30px;
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  transition: all 0.4s;
+}
+
+.solid {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--black);
+}
+
+.default {
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.solid:hover,
+.default:hover {
+  color: black;
+  background-color: #ffff;
+  opacity: 1;
+}
+
+.outline {
+  background-color: transparent;
+  border-color: var(--white);
+}
+
+.outline:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.darkOutline {
+  background-color: transparent;
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.darkOutline:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .vimeob {
+    font-size: 10px;
+    padding: 10px 15px 10px 15px;
+    width: 70%;
+  }
+}

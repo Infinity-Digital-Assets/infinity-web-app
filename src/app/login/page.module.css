@@ -1,0 +1,76 @@
+.logo{
+    
+/* font-family: 'Lato'; */
+/* font-style: normal; */
+font-weight: 900;
+font-size: 20px;
+line-height: 127.52%;
+
+text-transform: capitalize;
+
+background: linear-gradient(90.26deg, #2E73EA 0%, #AD00FF 25.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+.login{
+    
+
+/* font-family: 'Lato'; */
+/* font-style: normal; */
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+
+.assets{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 62px;
+
+background: linear-gradient(109.57deg, #2E73EA 2.68%, #22DDD2 96.16%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.reclam{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+
+background: linear-gradient(89.84deg, #AD00FF 0.28%, #2E73EA 99.72%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.btext{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+}
+.head1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    
+background: linear-gradient(88deg, #AD00FF 3.38%, #2E73EA 90.79%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}

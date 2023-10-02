@@ -1,0 +1,295 @@
+.bg-image {
+    background-image: url('https://images.infinitydigitalassets.io/assets/images/heroimage.webp');
+    height: 300px;
+}
+
+.browseText {
+    font-size: 36px;
+    background: linear-gradient(109.57deg, #22DDD2 40%, #2E73EA 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    /* top: 32%; */
+}
+
+.numText {
+    font-size: 80px;
+    color: #000025;
+    font-weight: 800;
+
+}
+
+.numCard {
+    border: 1px solid #22DDD2;
+    border-radius: 23px;
+    height: 343px;
+    padding: 2rem;
+    background-color: rgba(112, 112, 112, 0.3);
+}
+
+.mainText {
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.offerCard {
+    /* background-color: #fff; */
+    padding: 0.6rem;
+    border-radius: 18px;
+    width: 50%;
+    /* box-shadow: 0px 3px 22px 0px rgba(0, 0, 0, 0.10); */
+
+}
+
+.dark .offerCard {
+    /* background-color: #2A2A2A; */
+    /* box-shadow: none; */
+}
+
+.offerCardMobile {
+    padding: 0.6rem;
+    border-radius: 18px;
+    width: 100%;
+}
+
+.price {
+    font-size: 18px;
+    /* color: #ffff; */
+    font-weight: 800;
+}
+
+.address {
+    font-size: 14px;
+    /* color: #ffff; */
+    font-weight: 500;
+}
+
+.income {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+.incomeSubHeading {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+
+.cardMain {
+    border: 1px solid #22DDD2;
+    /* padding: 2rem; */
+    border-radius: 13px;
+}
+
+.cardReward {
+    padding: 2rem;
+    border-radius: 13px;
+    /* background-color: #1C1C1C; */
+}
+
+.cardHeading {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subCardHeading {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cardTxt {
+    font-size: 14px;
+    /* color: #ffff; */
+}
+
+.growthHeading {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: normal;
+    text-transform: capitalize;
+    /* gradient purple */
+    background: linear-gradient(88deg, #AD00FF 0%, #2E73EA 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.referalMain {
+    border: 1px solid #22DDD2;
+    padding: 2rem;
+    border-radius: 13px;
+}
+
+.percentage {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+.confirm {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: capitalize;
+    /* color: #ffff; */
+}
+
+.lastChild {
+    left: 52%;
+    position: absolute;
+}
+
+
+@media (min-width: 1023px) {
+    .price {
+        font-size: 24px;
+        /* color: #ffff; */
+        font-weight: 800;
+    }
+
+    .address {
+        font-size: 20px;
+        /* color: #ffff; */
+        font-weight: 500;
+    }
+
+    .income {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 38px;
+        text-transform: capitalize;
+        /* gradient purple */
+        background: linear-gradient(109.57deg, #2E73EA 2.68%, #22DDD2 36.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .incomeSubHeading {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 34px;
+        text-transform: capitalize;
+    }
+
+    .cardHeading {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: capitalize;
+        /* gradient purple */
+        background: linear-gradient(109.57deg, #22DDD2 2.68%, #2E73EA 36.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .cardTxt {
+        font-size: 16px;
+        /* color: #ffff; */
+    }
+
+    .growthHeading {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 29px;
+        text-transform: capitalize;
+        /* gradient purple */
+        background: linear-gradient(88deg, #AD00FF 0%, #2E73EA 30%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .subCardHeading {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: normal;
+        text-transform: capitalize;
+        /* gradient purple */
+        background: linear-gradient(109.57deg, #22DDD2 2.68%, #2E73EA 36.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .percentage {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 38px;
+        text-transform: capitalize;
+    }
+    
+    .confirm {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-transform: capitalize;
+        /* color: #ffff; */
+    }
+
+    .scrollableContent {
+        height: calc(100vh - 2px);
+        /* Adjust if needed to account for the border width */
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+        /* Customize the scrollbar color */
+    }
+
+}
+
+.scrollableContent::-webkit-scrollbar {
+    width: 4px;
+    /* Width of the scrollbar */
+}
+
+.scrollableContent::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* Customize the scrollbar thumb color */
+}
+
+.scrollableContent::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Customize the scrollbar track color */
+}
+
+.boxesContainer {
+    visibility: hidden;
+  }
+
+  .boxesContainer>* {
+    visibility: visible;
+  }
+
+  .boxesContainer>* {
+    transition: opacity 150ms linear 100ms, transform 350ms ease-in-out 100ms;
+  }
+
+  .boxesContainer:hover>* {
+    opacity: 0.7;
+    filter: grayscale(0.5);
+    transform: scale(0.9);
+    z-index: 1;
+}
+
+/* Fade out all items when the parent is hovered */
+
+.boxesContainer>*:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(110, 200, 230));
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0ms, 0ms;
+    z-index: 6;
+  }

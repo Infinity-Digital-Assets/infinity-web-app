@@ -1,0 +1,27 @@
+.mainText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+}
+
+.subText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+@media (min-width: 768px) {
+  .mainText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .subText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

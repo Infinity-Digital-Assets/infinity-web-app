@@ -1,0 +1,1245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #fff;
+  --cyan: #22ddd2;
+  --body-light: #515151;
+  --dark-gray: #2c323d;
+  --black: #000000;
+  --bg-black: #0b0b0b;
+  --light-theme-blue: #2e73ea;
+  --purple: #ad00ff;
+  --gradient-purple: linear-gradient(137deg, #ad00ff 0%, #2e73ea 100%);
+
+  --hover-effect: linear-gradient(
+    315deg,
+    rgba(19, 129, 255, 0.4) 0%,
+    rgba(0, 255, 209, 0.4) 100%
+  );
+
+  --gradient-blue-cyan: linear-gradient(
+    88deg,
+    var(--light-theme-blue) 3.38%,
+    var(--cyan) 90.79%
+  );
+  /* --nav-bg: #000000; */
+  --nav-bg: rgba(217, 217, 217, 0.1);
+}
+html.dark {
+  --nav-bg: rgba(217, 217, 217, 0.1);
+}
+
+body {
+  background-color: var(--white);
+  overflow-x: hidden;
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-lato);
+}
+
+.text-cyan {
+  color: var(--cyan);
+}
+.text-blue {
+  color: var(--light-theme-blue);
+}
+.text-purple {
+  color: var(--purple);
+}
+.text-gradient-purple {
+  display: inline-block;
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-blue-cyan {
+  display: inline-block;
+  background: var(--gradient-blue-cyan);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.custom-hover:hover {
+  background: var(--hover-effect);
+  transition: 0.4 all;
+}
+
+.border-cyan {
+  border-color: var(--cyan);
+}
+.border-purple {
+  border-color: var(--purple);
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+
+.bg-gradient-purple {
+  background: var(--gradient-purple);
+}
+.bg-black {
+  background: var(--bg-black);
+}
+
+.dark body {
+  background-color: #0b0b0b;
+  overflow-x: hidden;
+}
+
+/*Mobile View*/
+.headingGapTop {
+  margin-top: 4rem;
+}
+.sectionGapTop {
+  margin-top: 10rem;
+}
+.subHeadingGapTop {
+  margin-top: 1rem;
+}
+.contentGapTop {
+  margin-top: 4rem;
+}
+.contentGapTopandLeft {
+  margin-top: 4rem;
+}
+.halfContentGapTop {
+  margin-top: 2rem;
+}
+.gradient-border {
+  border: 1px solid;
+  border-color: var(--cyan);
+  border-image-slice: 1;
+  border-radius: 12px;
+}
+
+.lightGradient-border {
+  border: 1px solid;
+  border-color: rgb(163, 163, 163);
+  border-image-slice: 1;
+  border-radius: 12px;
+}
+
+.gradientText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  /* gradient purple */
+
+  background: var(--gradient-purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+.ssubHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.subHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.dark .subHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.sameSubHeadingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #000;
+}
+.dark .sameSubHeadingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.sameSubHeadingTextTop {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+}
+
+.dark .sameSubHeadingTextTop {
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.sameSubHeadingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.dark .sameSubHeadingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.mainSubHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000;
+}
+.dark .mainSubHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.smallSubHeadingText {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.dark .smallSubHeadingText {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.vsmallSubHeadingText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.dark .vsmallSubHeadingText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.headingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  /* Gradient Blue */
+  background: linear-gradient(138.57deg, #2e73ea 0%, #22ddd2 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bigBlueText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+
+  background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bigGradientText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-transform: capitalize;
+  /* gradient purple */
+  background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.changeBigGradientText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  /* gradient purple */
+  background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.headingGradientText {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 35px;
+  text-transform: capitalize;
+
+  background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.changeBigGradientText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: capitalize;
+  /* gradient purple */
+  background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.smallSubHeadingText {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  text-transform: capitalize;
+
+  color: #000;
+}
+
+.dark .smallSubHeadingText {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.vsmallSubHeadingText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.dark .vsmallSubHeadingText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.sectionHeadingText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.xSmallSubHeadingText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000;
+}
+
+.dark .xSmallSubHeadingText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.initialMargin {
+  margin-top: 6rem;
+}
+
+.borderDecoration {
+  background: transparent;
+
+  border: none;
+  backdrop-filter: blur(0px);
+
+  border-radius: 12px;
+  /* height: 51vh; */
+}
+
+.quarterGapTop {
+  margin-top: 3rem;
+}
+
+.companySectionGapTop {
+  margin-top: 20rem;
+}
+
+/*iPad Mini*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .headingText {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .sectionGapTop {
+    margin-top: 10rem;
+  }
+  .contentGapTopandLeft {
+    margin-top: 4rem;
+  }
+  .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    color: #000;
+  }
+  .dark .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    color: #fff;
+  }
+  .changeBigGradientText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: capitalize;
+    /* Gradient Blue */
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 36.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .ssubHeadingText {
+    font-size: 24px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .subHeadingText {
+    font-size: 24px;
+    line-height: 43px;
+    color: #000;
+  }
+  .dark .subHeadingText {
+    font-size: 24px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+  .dark .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+  }
+  .gradientText {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .bigGradientText {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .borderDecoration {
+    background: transparent;
+
+    border: none;
+    backdrop-filter: blur(0px);
+
+    border-radius: 12px;
+    /* height: 51vh; */
+  }
+
+  .headingGradientText {
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: left;
+
+    background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .smallSubHeadingText {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #000;
+  }
+  .dark .smallSubHeadingText {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #ffffff;
+  }
+  .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+  }
+  .dark .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .sectionHeadingText {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    color: #000;
+  }
+  .dark .sectionHeadingText {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    color: #fff;
+  }
+
+  .bigBlueText {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    text-transform: capitalize;
+
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #000;
+  }
+
+  .dark .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .initialMargin {
+    margin-top: 6rem;
+  }
+
+  .quarterGapTop {
+    margin-top: 3rem;
+  }
+
+  .companySectionGapTop {
+    margin-top: 10rem;
+  }
+}
+/*iPad Pro*/
+@media (min-width: 1024px) and (max-width: 1136px) {
+  .contentGapTopandLeft {
+    margin-top: 4rem;
+    margin-left: 0;
+  }
+  .contentGapTop {
+    margin-top: 0;
+  }
+  .ssubHeadingText {
+    font-size: 27px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .subHeadingText {
+    font-size: 27px;
+    line-height: 43px;
+    color: #000;
+  }
+  .dark .subHeadingText {
+    font-size: 27px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .smallGradientText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+  .dark .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+  }
+  .gradientText {
+    font-size: 28px;
+  }
+
+  .bigGradientText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+  }
+
+  .headingText {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000;
+  }
+  .dark .headingText {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 29px;
+    color: #fff;
+  }
+
+  .initialMargin {
+    margin-top: 6rem;
+  }
+
+  .borderDecoration {
+    background: rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #ad00ff;
+    backdrop-filter: blur(7px);
+
+    border-radius: 12px;
+    height: max-content;
+  }
+
+  .headingGradientText {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    text-align: left;
+
+    background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .smallSubHeadingText {
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #000;
+  }
+  .dark .smallSubHeadingText {
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #ffffff;
+  }
+  .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+  }
+  .dark .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .sectionHeadingText {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 33px;
+    color: #000;
+  }
+  .dark .sectionHeadingText {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 33px;
+    color: #fff;
+  }
+
+  .bigBlueText {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 33px;
+    text-transform: capitalize;
+
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #000;
+  }
+
+  .dark .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .doubleSectionGapTop {
+    margin-top: 0rem;
+  }
+
+  .subHeadingGapTop {
+    margin-top: 1rem;
+  }
+
+  .changeBigGradientText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: capitalize;
+    /* Gradient Blue */
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 36.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #000;
+  }
+  .dark .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .quarterGapTop {
+    margin-top: 4rem;
+  }
+
+  .companySectionGapTop {
+    margin-top: 10rem;
+  }
+}
+/*Laptop*/
+@media (min-width: 1136px) {
+  .headingGapTop {
+    margin-top: 4rem;
+  }
+
+  .doubleSectionGapTop {
+    margin-top: 30rem;
+  }
+
+  .sectionGapTop {
+    margin-top: 10rem;
+  }
+
+  .subHeadingGapTop {
+    margin-top: 1rem;
+  }
+
+  .contentGapTop {
+    margin-top: 4rem;
+  }
+
+  .contentGapTopandLeft {
+    margin-top: 4rem;
+  }
+
+  .halfContentGapTop {
+    margin-top: 2rem;
+  }
+
+  .quarterGapTop {
+    margin-top: 3rem;
+  }
+
+  .contentGapTopandLeft {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  .contentGapTop {
+    margin-top: 0;
+  }
+  .gradientText {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .ssubHeadingText {
+    font-size: 34px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .subHeadingText {
+    font-size: 34px;
+    line-height: 43px;
+    color: #000;
+  }
+  .dark .subHeadingText {
+    font-size: 34px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  .headingText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 45px;
+    color: #000;
+  }
+  .dark .headingText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 45px;
+    color: #fff;
+  }
+  .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    color: #000;
+  }
+
+  .dark .mainSubHeadingText {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    color: #fff;
+  }
+  .smallSubHeadingText {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .dark .smallSubHeadingText {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .dark .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .gradient-border {
+    border: 1px solid;
+    border-color: #22ddd2;
+    border-image-slice: 1;
+    border-radius: 12px;
+  }
+  .smallGradientText {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .dark .vsmallSubHeadingText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+  }
+
+  .dark .xSmallSubHeadingText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+  }
+
+  .headingGradientText {
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 55px;
+    text-transform: capitalize;
+    text-align: left;
+
+    background: linear-gradient(88deg, #ad00ff 3.38%, #2e73ea 90.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .initialMargin {
+    margin-top: 6rem;
+  }
+
+  .sectionHeadingText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+
+    color: #000;
+  }
+
+  .dark .sectionHeadingText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+
+    color: #fff;
+  }
+
+  .bigGradientText {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+  }
+
+  .bigBlueText {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: capitalize;
+
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 96.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .changeBigGradientText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: capitalize;
+    /* Gradient Blue */
+    background: linear-gradient(109.57deg, #2e73ea 2.68%, #22ddd2 36.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .borderDecoration {
+    background: rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #ad00ff;
+    backdrop-filter: blur(7px);
+
+    border-radius: 12px;
+    height: max-content;
+  }
+
+  .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #000;
+  }
+  .dark .sameSubHeadingText {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+
+  .companySectionGapTop {
+    margin-top: 0;
+  }
+}
+.show-counter .countdown-link {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pcountdown {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #22ddd2;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+.tcountdown {
+  display: flex;
+  justify-content: center;
+}
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.show-counter {
+  display: flex;
+  gap: 0.5rem;
+}
+#semi-colon {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: larger;
+  margin-top: -2.1rem;
+}
+/* @media screen and (max-wdith: 767px) {
+  .pcountdown {
+    width: 40px;
+  }
+} */
+@media (min-width: 768px) {
+  .pcountdown {
+    padding: 30px 20px 27px 20px;
+    margin-bottom: 0.5rem;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+  .single-entity {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}
+
+/* {Animations of INFINITY} */
+.heroLeftSection {
+  animation: fadeRight 1s ease-in-out 1;
+}
+.heroRightSection {
+  animation: fadeLeft 1s ease-in-out 1;
+}
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*------------------------
+	slidefadeinup
+--------------------------*/
+
+@-webkit-keyframes slideFadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20%, 0);
+    transform: translate3d(0, 20%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes slideFadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20%, 0);
+    transform: translate3d(0, 20%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.slideFadeInUp {
+  -webkit-animation-name: slideFadeInUp;
+  animation-name: slideFadeInUp;
+  animation: slideFadeInUp 2s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.dark table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000; /* Add this line to create a vertical line between columns */
+}
+
+.dark th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Add this line to create a vertical line between columns */
+}
+
+.dark td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Add this line to create a vertical line between columns */
+}
+th {
+  background-color: transparent;
+}
+th:last-child,
+td:last-child {
+  border-right: none; /* Remove the right border on the last column */
+}
+@media only screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+    overflow-x: auto;
+  }
+}
+
+.dark .selectedCard {
+  background: linear-gradient(
+    315deg,
+    rgba(19, 129, 255, 0.4),
+    rgba(0, 255, 209, 0.4)
+  );
+}
+
+.selectedCard {
+  background: #e3fefd;
+  backdrop-filter: blur(113px);
+}

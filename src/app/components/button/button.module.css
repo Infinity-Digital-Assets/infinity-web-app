@@ -1,0 +1,74 @@
+.button {
+  padding: 29px 30px 29px 30px;
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+
+  border-radius: 6px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  /* transition: all 0.4s; */
+}
+
+.solid {
+  /* background-color: var(--white); */
+  background-image: url('https://images.infinitydigitalassets.io/assets/images/button-fill-white.webp');
+  background-repeat: repeat-x;
+  transition: 1.5s ease;
+  border-color: var(--white);
+  color: var(--black);
+  background-position: 0 100%;
+}
+
+.lightSolid{
+  background-color: var(--black);
+  color: var(--white);
+  
+}
+
+.default {
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.solid:hover,
+.default:hover {
+  color: black;
+  /* background-color: #ffff; */
+  opacity: 1;
+  background-position: 0 -120%;
+  color: #ffff;
+}
+
+.lightSolid:hover {
+  color: black;
+  background-color: #ffff;
+  border-color: black;
+}
+
+.outline {
+  background-image: url('https://images.infinitydigitalassets.io/assets/images/button-fill-white.webp');
+  background-repeat: repeat-x;
+  transition: 1.5s ease;
+  border-color: var(--white);
+  color: var(--white);
+  background-position: 0 -140%;
+}
+
+.outline:hover {
+  background-position: center;
+  /* background-color: var(--white); */
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 14px;
+    padding: 25px 38px 25px 38px;
+  }
+}

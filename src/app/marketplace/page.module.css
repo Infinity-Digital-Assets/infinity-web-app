@@ -1,0 +1,26 @@
+.cat_link {
+  position: relative;}
+
+.cat_link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--cyan);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s;
+}
+
+.cat_link:hover::after, 
+.cat_link.active::after {
+  width: 25px;
+}
+
+.global_net_card {
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(7px);
+}

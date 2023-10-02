@@ -1,0 +1,62 @@
+.infinFontLogoColor {
+  line-height: 1.2652; /* Adjust the line height value as needed */
+  text-transform: capitalize;
+
+  background: linear-gradient(90.26deg, #2e73ea 0%, #ad00ff 91.43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.signUpTextForm {
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.placeHTextColor {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+
+  color: #d1d1d1;
+}
+
+.borderInpurField {
+  border: 2px solid #d1d1d1;
+}
+
+.dark .borderInpurField {
+  border: 2px solid white;
+}
+
+.signUpButton {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+
+}
+
+.rememberMe {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.belowSubHeading {
+  color: #545454;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.dark .belowSubHeading {
+  color: #d1d1d1;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.textUnderline {
+  text-decoration: underline;
+}

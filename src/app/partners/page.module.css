@@ -1,0 +1,222 @@
+.partnerBorderDecoration {
+  background: transparent;
+  border: none;
+  backdrop-filter: blur(0px);
+  border-radius: 12px;
+}
+
+.sec1HeadingText {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.sec1smallSubHeadingText {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: normal;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.customRectangle li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+}
+/* Individual bullet colors for each li */
+.customRectangle li:nth-of-type(1)::before {
+  background-color: #775DD0;
+}
+
+.customRectangle li:nth-of-type(2)::before {
+  background-color: #008FFB;
+}
+
+.customRectangle li:nth-of-type(3)::before {
+  background-color: #00E396;
+}
+
+.customRectangle li:nth-of-type(4)::before {
+  background-color: #FEB019;
+}
+
+.customRectangle li:nth-of-type(5)::before {
+  background-color: #FF4560;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .partnerBorderDecoration {
+    background: transparent;
+    border: none;
+    backdrop-filter: blur(0px);
+    border-radius: 12px;
+  }
+
+  .sec1HeadingText {
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+
+  }
+
+  .sec1smallSubHeadingText {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: normal;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  .customRectangle li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  /* Individual bullet colors for each li */
+.customRectangle li:nth-of-type(1)::before {
+  background-color: #775DD0;
+}
+
+.customRectangle li:nth-of-type(2)::before {
+  background-color: #008FFB;
+}
+
+.customRectangle li:nth-of-type(3)::before {
+  background-color: #00E396;
+}
+
+.customRectangle li:nth-of-type(4)::before {
+  background-color: #FEB019;
+}
+
+.customRectangle li:nth-of-type(5)::before {
+  background-color: #FF4560;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1136px) {
+  .partnerBorderDecoration {
+    background: rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #44b0d1;
+    backdrop-filter: blur(7px);
+
+    border-radius: 12px;
+    height: max-content;
+  }
+
+  .sec1HeadingText {
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+
+  }
+
+  .sec1smallSubHeadingText {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: normal;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  .customRectangle li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  /* Individual bullet colors for each li */
+.customRectangle li:nth-of-type(1)::before {
+  background-color: #775DD0;
+}
+
+.customRectangle li:nth-of-type(2)::before {
+  background-color: #008FFB;
+}
+
+.customRectangle li:nth-of-type(3)::before {
+  background-color: #00E396;
+}
+
+.customRectangle li:nth-of-type(4)::before {
+  background-color: #FEB019;
+}
+
+.customRectangle li:nth-of-type(5)::before {
+  background-color: #FF4560;
+}
+}
+
+@media (min-width: 1136px) {
+  .partnerBorderDecoration {
+    background: rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #44b0d1;
+    backdrop-filter: blur(7px);
+
+    border-radius: 12px;
+    height: max-content;
+  }
+
+  .sec1HeadingText {
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+
+  }
+
+  .sec1smallSubHeadingText {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: normal;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  .customRectangle li:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 24px;
+  }
+
+/* Individual bullet colors for each li */
+.customRectangle li:nth-of-type(1)::before {
+  background-color: #775DD0;
+}
+
+.customRectangle li:nth-of-type(2)::before {
+  background-color: #008FFB;
+}
+
+.customRectangle li:nth-of-type(3)::before {
+  background-color: #00E396;
+}
+
+.customRectangle li:nth-of-type(4)::before {
+  background-color: #FEB019;
+}
+
+.customRectangle li:nth-of-type(5)::before {
+  background-color: #FF4560;
+}
+}

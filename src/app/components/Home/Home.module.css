@@ -1,0 +1,23 @@
+/* Seed Round Section*/
+.seed_card {
+  border: 1px solid var(--cyan);
+}
+/* How it works */
+.hiw_card {
+  border-radius: 25px;
+  border: 1px solid var(--cyan);
+  background: rgba(112, 112, 112, 0.21);
+  backdrop-filter: blur(6px);
+}
+
+/* Global Net Wealth */
+.global_net_card {
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(7px);
+}
+
+/* Meet the team */
+.team_wrap {
+
+}

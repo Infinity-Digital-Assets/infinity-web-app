@@ -1,0 +1,14 @@
+.heading3Text{
+    font-weight: 800;
+text-transform: capitalize;
+
+background: linear-gradient(138deg, #2E73EA 0%, #22DDD2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+margin-bottom: 5px;
+}
+
+.contentText{
+    font-weight: 400;
+}

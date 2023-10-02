@@ -1,0 +1,92 @@
+.sec1HeadingText {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: capitalize;
+    background: linear-gradient(#2e73ea, #22ddd2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .sec1smallSubHeadingText {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: normal;
+    text-transform: capitalize;
+  
+    color: #ffffff;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sec1HeadingText {
+      font-size: 47px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      background: linear-gradient(#2e73ea, #22ddd2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  
+    .sec1smallSubHeadingText {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      color: #ffffff;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1136px) {
+    .sec1HeadingText {
+      font-size: 47px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      background: linear-gradient(#2e73ea, #22ddd2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  
+    .sec1smallSubHeadingText {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      color: #ffffff;
+    }
+}
+
+@media (min-width: 1136px) {
+    .sec1HeadingText {
+      font-size: 47px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      background: linear-gradient(#2e73ea, #22ddd2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  
+    .sec1smallSubHeadingText {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: normal;
+      text-transform: capitalize;
+  
+      color: #ffffff;
+    }
+}

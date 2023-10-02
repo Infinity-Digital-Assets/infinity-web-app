@@ -1,0 +1,59 @@
+.cardBackground {
+  border-radius: 33px;
+  background: linear-gradient(
+    270deg,
+    rgba(46, 115, 234, 0.2) 0%,
+    rgba(46, 115, 234, 0.02) 100%
+  );
+  backdrop-filter: blur(10px);
+}
+.cardBackgroundLight {
+  border-radius: 33px;
+  background-color: rgba(46, 115, 234, 0.2);
+  backdrop-filter: blur(10px);
+}
+.smallCardbg {
+  border-radius: 24px;
+  background: rgba(46, 115, 234, 0.4);
+  box-shadow: 0px 14px 49px 0px rgba(0, 0, 0, 0.15);
+}
+.smallCardbgLight {
+  border-radius: 24px;
+  background: rgba(46, 115, 234, 1);
+  /* box-shadow: 0px 14px 49px 0px rgba(0, 0, 0, 0.15); */
+}
+.dropshadow {
+  filter: drop-shadow(18px 25px 20px rgb(50, 78, 124));
+  max-width: 40%;
+}
+.tokenselect {
+  background: linear-gradient(
+    137deg,
+    rgba(173, 0, 255, 0.1) 0%,
+    rgba(46, 115, 234, 0.1) 100%
+  );
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+}
+.tokenpay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #101a2a;
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+  padding: 11px 20px;
+}
+.tokenpayLight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F1F6FE;
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+  padding: 11px 20px;
+}

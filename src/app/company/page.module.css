@@ -1,0 +1,164 @@
+.backgroundBlur {
+  background: rgba(0, 0, 0, 0.47);
+  backdrop-filter: blur(0px);
+}
+
+.backgroundColourMissionSection {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(
+    0deg,
+    #ffe20345 0%,
+    #060606ff 0%,
+    #631686f5 16%,
+    #5d0897ff 50%,
+    #4f1686fa 84%,
+    #080808ed 99%,
+    #073aff00 100%
+  );
+}
+
+/* .backgroundColourHeroSection {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  margin-top: 12%;
+} */
+
+@media (min-width: 1023px) {
+  .scrollableContent {
+    height: calc(
+      100vh
+    ); /* Adjust if needed to account for the border width */
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Customize the scrollbar color */
+  }
+
+  .scrollingContent {
+    overflow-y: scroll;
+    height: calc(120vh - 2px);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1136px) {
+  .scrollingContent {
+    overflow-y: scroll;
+    height: calc(76vh - 2px);
+    overflow-x: hidden;
+  }
+}
+
+.scrollableContent::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+.scrollableContent::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Customize the scrollbar thumb color */
+}
+
+.scrollableContent::-webkit-scrollbar-track {
+  background-color: transparent; /* Customize the scrollbar track color */
+}
+
+.scrollingContent::-webkit-scrollbar {
+  width: 7px; /* Width of the scrollbar */
+}
+
+.scrollingContent::-webkit-scrollbar-thumb {
+  background-color: #545454; /* Customize the scrollbar thumb color */
+}
+
+.scrollingContent::-webkit-scrollbar-track {
+  background-color: transparent; /* Customize the scrollbar track color */
+}
+
+.scrollingContent::-webkit-scrollbar-thumb:hover {
+  background-color: #737373; /* Customize the scrollbar thumb color on hover */
+}
+
+.card {
+  width: 96%;
+  height: 96%;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #22ddd2;
+  margin: 0% 4% 4% 4%;
+}
+
+.card:hover {
+  border-radius: 20px;
+  background: linear-gradient(
+    315deg,
+    rgba(19, 129, 255, 0.4) 0%,
+    rgba(0, 255, 209, 0.4) 100%
+  );
+}
+
+.selectedCard {
+  border-radius: 20px;
+  background: linear-gradient(
+    315deg,
+    rgba(19, 129, 255, 0.4) 0%,
+    rgba(0, 255, 209, 0.4) 100%
+  );
+}
+
+.cardNameText {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.cardDesgText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+
+  color: #36c5f0;
+}
+
+.viewCardDetails {
+  width: 95%;
+  backdrop-filter: blur(113px);
+  border: 1px solid #ffffff;
+  border-radius: 23px;
+}
+
+.viewCardName {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+
+}
+
+.viewCardDesg {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #36c5f0;
+}
+
+.viewCardExp {
+  text-transform: capitalize;
+
+}
+
+.viewCardIntroText {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+
+}
+
+.viewCardIntroDetails {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+
+  margin-bottom: 2.5rem;
+}
